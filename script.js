@@ -1,5 +1,5 @@
 loadXMLFeed = () => {
-  const url = 'https://tribratanews.papua.polri.go.id/feed/';
+  const url = 'https://www.blogger.com/feeds/3199727266253005950/posts/default';
   fetch(url)
     .then(response => response.text())
     .then(data => {
