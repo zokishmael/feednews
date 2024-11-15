@@ -1,5 +1,5 @@
 loadXMLFeed = () => {
-  const url = 'https://www.cnnindonesia.com/nasional/rss';
+  const url = 'https://tribratanews.papua.polri.go.id/feed/';
   fetch(url)
     .then(response => response.text())
     .then(data => {
